@@ -656,6 +656,13 @@
   dependencies:
     react "18.2.0"
 
+"@react-email/head@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/@react-email/head/-/head-0.0.5.tgz"
+  integrity sha512-s84OxJxZMee2z5b1a+RVwY1NOSUNNf1ecjPf6n64aZmMNcNUyn4gOl7RO6xbfBrZko7TigBwsFB1Cgjxtn/ydg==
+  dependencies:
+    react "18.2.0"
+
 "@react-email/html@0.0.4":
   version "0.0.4"
   resolved "https://registry.npmjs.org/@react-email/html/-/html-0.0.4.tgz"

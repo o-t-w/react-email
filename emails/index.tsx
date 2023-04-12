@@ -2,12 +2,13 @@ import { Button } from '@react-email/button';
 import { Html } from '@react-email/html';
 import { Container } from '@react-email/container';
 import {Tailwind} from '@react-email/tailwind';
+import { Head } from '@react-email/head';
 import * as React from 'react';
 
 export default function Email() {
   return (
     <Html>
-          <Tailwind
+                <Tailwind
       config={{
         theme: {
             colors: {
@@ -17,9 +18,14 @@ export default function Email() {
         },
       }}
     >
+      <Head>
+      <title>My email title</title>
+    </Head>
+
      <Container className="bg-blue">
     <h1 className="text-pink">Hello, internet</h1>
      <Button
+        className="bg-blue hover:bg-pink"
         pX={20}
         pY={12}
         href="https://example.com"

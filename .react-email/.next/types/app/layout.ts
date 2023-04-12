@@ -1,4 +1,4 @@
-// File: /Users/olliew/code/blog/react-email-starter/.react-email/src/app/layout.tsx
+// File: /Users/olliew/code/react-email-starter/.react-email/src/app/layout.tsx
 import * as entry from '../../../src/app/layout'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 
